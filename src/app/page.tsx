@@ -1,9 +1,6 @@
-import Home from "@/components/images-grid/images-grid";
+"use client"
+import { redirect } from "next/navigation"
 
-export default function Page() {
-  return (
-    <main>
-      <Home />
-    </main>
-  );
+export default function HomePage() {
+  redirect("/street")
 }
