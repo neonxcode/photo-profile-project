@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import  {Playfair_Display } from "next/font/google";
 import "./globals.css";
 import TabNavigation from "@/components/tab-navigation"
+import AboutMePanel from "@/components/about-me-panel"
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={`${playfairDisplay.variable} antialiased`}
       >
         <TabNavigation />
+        <AboutMePanel />
         {children}
       </body>
     </html>
