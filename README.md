@@ -1,3 +1,11 @@
+
+remove the 
+``` eslint: {
+    ignoreDuringBuilds: true,
+  },
+``` 
+from next.config.ts DONT FORGET
+
 <<<<<<< HEAD
 # photo-profile-project
 =======
